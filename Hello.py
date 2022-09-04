@@ -75,10 +75,38 @@ x = str(5)
 
 # hello() 
 
+#increment and decrement
+# i=0
+# i=i+1
+# i=0
+# i+=1
+# i-=1
+# print(i)
 
-i=0
-i=i+1
-i=0
-i+=1
-i-=1
-print(i)
+#can i do math on string 
+# i='5'
+# print(type(i)) # <class 'str'>
+# print(i+5)  # TypeError: can only concatenate str (not "int") to str
+
+#how to use while loop
+
+# count = int(input("Enter the number : "))
+# while count > 0:
+#     print(count)
+#     count -=1
+
+
+numbers = [1,-5,2,-4,0,6,-10,3]
+# print(type(numbers))
+
+pos = []
+neg = []
+for number in numbers:
+    if number > 0:
+        pos.append(number)
+    else:
+        neg.append(number)
+
+print(pos)
+print(neg)
+
